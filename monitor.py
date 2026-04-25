@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://egresados.unapec.edu.do/ofertas-de-empleo/"
-DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_UNAPEC", "https://discord.com/api/webhooks/1497584283110346812/UcCFZgCmygS7lDa7vT-UZcHY3oSM8ihjAPdknpGW6oMene0FkKpypz2rnFuZyZDIY1up")
+DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_UNAPEC")
 STATE_FILE = "isc_state.json"
 
 KEYWORDS = ["ISC", "Ing. en Sistemas", "Ingeniería en Sistemas", "Sistemas Computacionales"]
